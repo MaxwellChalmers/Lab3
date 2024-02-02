@@ -68,15 +68,15 @@ public static void main(String[] args){
 
 	Integer[] t1 = {1,1,1,1,2,4,3};
 	Integer[] t2 = {1,2,4,5,6,7,8,9,135};
-    Integer[] t3 = {0}; 
-	/*
+    I   Integer[] t3 = {0}; 
+	
 	System.out.println(Arrays.toString(t1));
 	System.out.println(twoOfAKindNested(Arrays.asList(t1)));
 	System.out.println(Arrays.toString(t2));
 	System.out.println(twoOfAKindNested(Arrays.asList(t2)));
 	System.out.println(Arrays.toString(t3));
 	System.out.println(twoOfAKindNested(Arrays.asList(t3)));
-	*/
+	
 	System.out.println(Arrays.toString(t1));
 	System.out.println(twoOfAKind(Arrays.asList(t1)));
 	System.out.println(Arrays.toString(t2));
